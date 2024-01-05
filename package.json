@@ -29,8 +29,7 @@
     "docs:version": "cd docs-website && yarn version --no-git-tag-version --no-commit-hooks --new-version",
     "docs:dev": "./scripts/update-docusaurus && cd docs-website && yarn start",
     "docs:build": "./scripts/update-docusaurus && cd docs-website && yarn build",
-    "docs:deploy": "./scripts/update-docusaurus && cd docs-website && yarn deploy",
-    "postinstall": "patch-package"
+    "docs:deploy": "./scripts/update-docusaurus && cd docs-website && yarn deploy"
   },
   "types": "src/index.d.ts",
   "author": "@Nozbe",
